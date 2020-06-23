@@ -47,7 +47,7 @@ print("The pearson coefficient of", pears_coef, "implies there is a weak positiv
 print("Therefore the number of wine servings appears to be positively correlated with the number of beer servings, as seen in the graph.")
 
 ##6. Fit a linear regression model to predict the 'total_litres_of_pure_alcohol' using the number of 'wine_servings' then 
-##  calculate  𝑅^2:
+##  calculate  R^2:
 lm = LinearRegression()
 
 x = df[["wine_servings"]]
