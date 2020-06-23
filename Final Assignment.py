@@ -8,6 +8,7 @@ import matplotlib as mpl
 import seaborn as sns
 import scipy.stats as stats
 from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import StandardScaler, PolynomialFeatures
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import Ridge
